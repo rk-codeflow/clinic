@@ -252,8 +252,8 @@ button:focus {
     color: #ff6a00;
 }
 
-.header-top-item .header-top-left ul li a i {
-    color: #666;
+.header-top-item .header-top-left ul li  i {
+    color: #ff6a00;
     font-size: 18px;
     position: relative;
     top: 2px;
@@ -269,6 +269,16 @@ button:focus {
     font-size: 12px;
     font-weight: 400;
     border-radius: 4px;
+}
+
+.header-top-item .header-top-right .apt-btn a:hover {
+    background-color: #ff6a00;
+    color: #fff;
+    transition: background 500ms linear;
+    -webkit-transition: background 500ms linear;
+    -moz-transition: background 500ms linear;
+    -ms-transition: background 500ms linear;
+    -o-transition: background 500ms linear;
 }
 
 .header-top-item .header-top-right {
