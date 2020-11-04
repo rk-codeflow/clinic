@@ -361,6 +361,7 @@
         </div>
     </section>
     <!-- End Services -->
+    
     <!-- Testimonials -->
     <section class="testimonial-area ptb-100">
         <div class="container">
@@ -653,7 +654,7 @@
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <i class="icofont-hospital"></i>
-                                    <label>Services</label>
+                                    <labevices</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
                                             <option>Dental Care</option>
                                             <option>Neurology</option>

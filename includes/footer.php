@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-2">
+                <div class="col-sm-6 col-lg-4">
                     <div class="footer-item">
                         <div class="footer-quick">
                             <h3>Quick Links</h3>
@@ -30,21 +30,29 @@
 
 
                                 <li>
-                                    <a href="home.php">Home</a>
+                                    <a href="index.php">Home</a>
                                 </li>
 
                                 <li>
                                     <a href="about.php">About us</a>
                                 </li>
-
-                                <li>
-                                    <a href="blog.php">Blog</a>
-                                </li>
-                                
+                      
                                 <li>
                                     <a href="doctor.php">Our Team</a>
                                 </li>
+
+                                <li>
+                                    <a href="services.php">Our Services</a>
+                                </li>
+
+                                <li>
+                                    <a href="services.php">Gallery</a>
+                                </li>
                                 
+                                <li>
+                                    <a href="blog.php">Blogs</a>
+                                </li>
+
                                 <li>
                                     <a href="contact.php">Contact us</a>
                                 </li>
@@ -52,7 +60,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+
+                <!-- <div class="col-sm-6 col-lg-3">
                     <div class="footer-item">
                         <div class="footer-quick">
                             <h3>Our Services</h3>
@@ -78,8 +87,8 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
+                </div> -->
+                <div class="col-sm-6 col-lg-4">
                     <div class="footer-item">
                         <div class="footer-feedback">
                             <h3>Operation Hours</h3>
@@ -126,7 +135,7 @@
     <div class="copyright-area">
         <div class="container">
             <div class="copyright-item">
-                <p>Copyright © 2020. NIFLC. All rights reserved. </p>
+                <p>Copyright © <span class="fullYear"></span> NIFLC. All rights reserved. </p>
             </div>
         </div>
     </div>

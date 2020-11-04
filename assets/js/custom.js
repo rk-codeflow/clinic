@@ -233,3 +233,7 @@
 
 //Datepicker init
 $('[data-toggle="datepicker"]').datepicker();
+
+// Dynamic date
+const year = document.querySelector('.fullYear');
+year.innerHTML = new Date().getFullYear() + ',';

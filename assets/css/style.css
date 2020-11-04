@@ -2182,7 +2182,7 @@ footer {
 }
 
 .speciality-right {
-    background-image: url("../img/home-two/4.jpg");
+    background-image: url("../img/about/abt2.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2987,7 +2987,7 @@ footer {
 /*-- Page Title --*/
 
 .page-title-one {
-    background-image: url("../img/doctor/1.jpg");
+    background-image: url("../img/about/about.jpg");
 }
 
 .page-title-area {
@@ -3309,8 +3309,13 @@ footer {
 /*-- Page Title --*/
 
 .page-title-three {
-    background-image: url("../img/doctor/1.jpg");
-    height: 460px;
+    background-image: url("../img/services/serv2.jpg");
+    /* height: 460px */
+}
+
+.page-title-three .page-title-item {
+    position: relative;
+    top: -150px;
 }
 
 .page-title-three .d-table-cell {
