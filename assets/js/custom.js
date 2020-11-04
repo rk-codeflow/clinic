@@ -1,7 +1,6 @@
 (function($) {
 	'use strict';
 	jQuery(document).on('ready', function(){
-
 	// START MENU JS
 	$(window).on('scroll', function() {
 		if ($(this).scrollTop() > 50) {
@@ -232,3 +231,5 @@
 }); 	
 })(jQuery);
 
+//Datepicker init
+$('[data-toggle="datepicker"]').datepicker();

@@ -89,6 +89,10 @@ a {
     transition: 0.5s all ease;
 }
 
+ul {
+    list-style: none;
+}   
+
 a:hover {
     text-decoration: none;
 }
@@ -109,6 +113,10 @@ img {
 .ptb-100 {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.ptb-60 {
+    padding: 60px 30px;
 }
 
 .pt-100 {
@@ -3168,7 +3176,7 @@ footer {
 /*-- Page Title --*/
 
 .page-title-two {
-    background-image: url("../img/appointment/1.jpg");
+    background-image: url("../img/appointment/appoint.jpg");
     height: 440px;
 }
 
@@ -5351,5 +5359,81 @@ footer {
 /**** CSS by me ***********/
 .sub-heading {
     font-family: 'Montserrat', sans-serif;
-
 }
+
+/***************
+    appointment
+****************/
+.appointment .appointment__left {
+    /* background: url(../img/about.jpg) no-repeat center center / cover; */
+    background-color: rgba(255, 106, 0, 0.8);
+    padding: 60px 50px;
+    color: #fff;
+    
+}
+
+.appointment .appointment__left ul li i {
+    font-size:40px;
+    color: #ff6a00;
+    background: #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.appointment .appointment__left ul li {
+    margin-top: 50px;   
+}
+
+.appointment .appointment__left span {
+   font-size: 15px; 
+   margin-left: 20px;   
+   font-weight: 400;
+}
+
+.appointment__right {
+    background: #f4f4f4;
+    padding: 60px 10px;
+}
+
+.appointment__right .appointment__right-text {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.appointment__right .appointment__right-text p {
+    font-weight: 500;
+    color: #000;
+    padding-left: 20px;
+    /* letter-spacing: 1px; */
+    word-spacing: 5px;
+}
+
+.appointment__right img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.appointment__right .appointment__form form .icon {
+    color: #ff6a00;
+}
+
+.submit-btn a.btn__submit {
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+
+
+

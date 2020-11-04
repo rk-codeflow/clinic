@@ -27,23 +27,26 @@
                         <div class="footer-quick">
                             <h3>Quick Links</h3>
                             <ul>
+
+
                                 <li>
-                                    <a href="about.html">About us</a>
+                                    <a href="home.php">Home</a>
                                 </li>
+
                                 <li>
-                                    <a href="blog.html">Blog</a>
+                                    <a href="about.php">About us</a>
                                 </li>
+
                                 <li>
-                                    <a href="blog-details.html">Our Expertise</a>
+                                    <a href="blog.php">Blog</a>
                                 </li>
+                                
                                 <li>
-                                    <a href="faq.html">Faq</a>
+                                    <a href="doctor.php">Our Team</a>
                                 </li>
+                                
                                 <li>
-                                    <a href="doctor.html">Doctors</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact us</a>
+                                    <a href="contact.php">Contact us</a>
                                 </li>
                             </ul>
                         </div>
@@ -165,6 +168,10 @@
 
     <!-- Map JS -->
     <script src="assets/js/map.js"></script>
+
+    <!-- datepicker -->
+    <script src="assets/js/datepicker.min.js"></script>
+
     
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>

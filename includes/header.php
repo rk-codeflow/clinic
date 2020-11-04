@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
+    <!-- normalize css -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/local.reset.css">
+
     <!-- Meanmenu CSS -->
     <link rel="stylesheet" href="assets/css/meanmenu.css">
 
@@ -30,6 +36,9 @@
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- datepicker -->
+    <link rel="stylesheet" href="assets/css/datepicker.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -130,7 +139,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="index.php" class="nav-link active">Home</a>
+                                <a href="index.php" class="nav-link">Home</a>
                             </li>
                             
                             <li class="nav-item">

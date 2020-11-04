@@ -534,7 +534,7 @@
                     <div class="doctor-item">
                         <div class="doctor-top">
                             <img src="assets/img/home-two/DrGyanendra.jpg" alt="Doctor">
-                            <a href="appointment.html">Get Appointment</a>
+                            <a href="appointment.php">Get Appointment</a>
                         </div>
                         <div class="doctor-bottom">
                             <h3>
@@ -549,7 +549,7 @@
                     <div class="doctor-item">
                         <div class="doctor-top">
                             <img src="assets/img/home-two/DrMira.jpg" alt="Doctor">
-                            <a href="appointment.html">Get Appointment</a>
+                            <a href="appointment.php">Get Appointment</a>
                         </div>
                         <div class="doctor-bottom">
                             <h3>
@@ -564,7 +564,7 @@
                     <div class="doctor-item">
                         <div class="doctor-top">
                             <img src="assets/img/home-two/DrRashmi.jpg" alt="Doctor">
-                            <a href="appointment.html">Get Appointment</a>
+                            <a href="appointment.php">Get Appointment</a>
                         </div>
                         <div class="doctor-bottom">
                             <h3>
