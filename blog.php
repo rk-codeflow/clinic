@@ -2,7 +2,7 @@
         <?php include 'includes/header.php';?>
 
         <!-- Page Title -->
-        <div class="page-title-area page-title-four">
+        <div class="page-title-area page-title-five">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="page-title-item">

@@ -123,6 +123,15 @@
 		fixedContentPos: false
 	});
 
+	//gallery
+	$('.gallery__img').magnificPopup({
+  		type: 'image',
+		delegate: 'a',
+		gallery: {
+	      enabled: true
+	    }
+	});
+
 	// Accordion JS
 	$('.accordion > li:eq(0) a').addClass('active').next().slideDown();
 	$('.accordion a').on('click', function(j) {

@@ -139,20 +139,20 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="index.php" class="nav-link">Home</a>
+                                <a href="index.php" class="nav-link active">Home</a>
                             </li>
                             
                             <li class="nav-item">
                                 <a href="about.php" class="nav-link">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Our Team</a>
+                                <a href="doctor.php" class="nav-link dropdown-toggle">Our Team</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <a href="doctor.php" class="nav-link">Doctors</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Teams</a>
+                                        <a href="team.php" class="nav-link">Teams</a>
                                     </li>
                                 </ul>
                             </li>

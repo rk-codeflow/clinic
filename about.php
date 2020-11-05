@@ -151,7 +151,7 @@
                                     <i class="icofont-ui-call"></i>
                                 </div>
                                 <h3>Emergency Call</h3>
-                                <p>+07 554 332 322</p>
+                                <p>+977-01-5555499</p>
                             </div>
                         </div>
                     </div>

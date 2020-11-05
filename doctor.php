@@ -2,7 +2,7 @@
         <?php include 'includes/header.php';?>
 
         <!-- Page Title -->
-        <div class="page-title-area page-title-one">
+        <div class="page-title-area page-title-doc1">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="page-title-item">
@@ -69,49 +69,49 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/1.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc1.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
                                 <h3>
-                                    <a href="doctor-details.html">Dr. Babatunde</a>
+                                    <a href="doctor-details.html">Dr. Gyanendra Man Singh Karki</a>
                                 </h3>
-                                <span>Neurosurgeon</span>
+                                <span>Laparoscopic Surgeon</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/2.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc4.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
                                 <h3>
-                                    <a href="doctor-details.html">Dr. Addition Smith</a>
+                                    <a href="doctor-details.html">Dr. Rashmi Sirish</a>
                                 </h3>
-                                <span>Neurosurgeon</span>
+                                <span>Fertility Specialist</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/3.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc5.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
                                 <h3>
-                                    <a href="doctor-details.html">Dr. Sarah Taylor</a>
+                                    <a href="doctor-details.html">Dr. Mira Thapa</a>
                                 </h3>
-                                <span>Dental Surgeon</span>
+                                <span>Fertility Specialist</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/4.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc5.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
@@ -125,7 +125,7 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/5.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc4.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
@@ -139,7 +139,7 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/6.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc1.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
@@ -153,7 +153,7 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/7.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc5.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
@@ -167,7 +167,7 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/8.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc1.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
@@ -181,7 +181,7 @@
                     <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
                         <div class="doctor-item">
                             <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/9.jpg" alt="Doctor">
+                                <img src="assets/img/doctor/doc4.jpg" alt="Doctor">
                                 <a href="appointment.html">Get Appointment</a>
                             </div>
                             <div class="doctor-bottom">
