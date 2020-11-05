@@ -28,8 +28,8 @@
                 <div class="row">
                     <div class="col-lg-12 mb-5">
                         <div class="gallery__text">
-                            <span class="sub-heading">Gallery</span>
-                            <h2>Few Glimpses of Our Programmes</h2>
+                            <span class="sub__heading">Gallery</span>
+                            <h2 class="main__heading">Few Glimpses of Our Programmes</h2>
                         </div>
                     </div>
 

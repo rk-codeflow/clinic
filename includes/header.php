@@ -46,7 +46,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <title>Medsev - Healthcare Clinic & Doctor HTML Template</title>
+    <title>NIFCL - Best infertility center</title>
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
@@ -139,7 +139,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="index.php" class="nav-link active">Home</a>
+                                <a href="index.php" class="nav-link">Home</a>
                             </li>
                             
                             <li class="nav-item">

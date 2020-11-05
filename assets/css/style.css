@@ -5456,15 +5456,52 @@ footer {
 /***************
     gallery
 ****************/
-.gallery .gallery__text span {
+ span.sub__heading {
     color: #ff6a00;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.gallery .gallery__text h2 {
+ h2.main__heading {
     font-size: 28px;
     font-weight: 500;
     color: #232323;
+}
+
+/***************
+    gallery
+****************/
+
+.team__content .team__content-left {
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+
+.team__content .team__content-right h2{
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    right: -75px;
+    top: 10px;
+}
+
+
+.team__content .team__content-right span{
+    color: #232323;
+    position: relative;
+    right: -140px;
+    top: 14px;
+}
+
+.team__content-down h2 {
+    font-size: 18px;
+}
+
+.team__down-text {
+    color: #232323;
+    position: relative;
+    top: 10px;
+    left: 130px;
 }
