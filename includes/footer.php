@@ -1,8 +1,8 @@
 <!-- Footer -->
-    <footer class="pb-70">
+    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-lg-4 col-sm-5">
                     <div class="footer-item">
                         <div class="footer-contact">
                             <h3>Contact Us</h3>
@@ -22,13 +22,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-lg-4 col-sm-3 col-4">
                     <div class="footer-item">
                         <div class="footer-quick">
                             <h3>Quick Links</h3>
                             <ul>
-
-
                                 <li>
                                     <a href="index.php">Home</a>
                                 </li>
@@ -61,65 +59,39 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-sm-6 col-lg-3">
-                    <div class="footer-item">
-                        <div class="footer-quick">
-                            <h3>Our Services</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">Dental Care</a>
-                                </li>
-                                <li>
-                                    <a href="#">Cardiology</a>
-                                </li>
-                                <li>
-                                    <a href="#">Hijama Therapy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Massage Therapy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Ambluance Sevices</a>
-                                </li>
-                                <li>
-                                    <a href="#">Medicine</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-sm-6 col-lg-4">
+                
+                <div class="col-lg-4 col-sm-4  col-8">
                     <div class="footer-item">
                         <div class="footer-feedback">
                             <h3>Operation Hours</h3>
                             <table class="opt-hr">
                                 <tr>
                                     <td>Sunday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Monday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
-                                    <td>9:00 am–6:00 pm </td>
+                                    <td class="pl-2">9:00 am–6:00 pm </td>
                                 </tr>
                                 <tr>
                                     <td>Saturday</td>
-                                    <td>Close </td>
+                                    <td class="pl-2">Close </td>
                                 </tr>
                             </table>
 

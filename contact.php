@@ -9,7 +9,7 @@
                         <h2>Contact Us</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
                                 <i class="icofont-simple-right"></i>
@@ -122,7 +122,7 @@
                                 <div class="speciality-icon">
                                     <i class="icofont-ui-call"></i>
                                 </div>
-                                <h3>Emergency Call</h3>
+                                <h3>Contact Us</h3>
                                 <p>+977-01-5555499</p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
 
         <!-- Map -->
         <!-- Start Map Area -->
-		<div class="contact-map-area">
+		<div class="contact-map-area pt-100">
 			<div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 p-0">
@@ -148,39 +148,7 @@
 		<!-- End Map Area -->
         <!-- End Map -->
 
-        <!-- Footer -->
-        <footer class="pb-70">
-            <!-- Newsletter -->
-            <div class="newsletter-area">
-                <div class="container">
-                    <div class="row newsletter-wrap align-items-center">
-                        <div class="col-lg-7">
-                            <div class="newsletter-item">
-                                <h2>Join Our Newsletter</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="newsletter-item">
-                                <div class="newsletter-form">
-                                    <form class="newsletter-form" data-toggle="validator">
-                                        <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
         
-                                        <button class="btn newsletter-btn" type="submit">
-                                            Subscribe
-                                        </button>
-        
-                                        <div id="validator-newsletter" class="form-result"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Newsletter -->
-        </footer>
-        <!-- End Footer -->
     
     <!-- include footer -->
     <?php include 'includes/footer.php';?>

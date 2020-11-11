@@ -10,7 +10,7 @@
                         <h2>Service</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
                                 <i class="icofont-simple-right"></i>
@@ -179,47 +179,82 @@
         <section class="expertise-area pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2>Our Expertise</h2>
+                    <h2>Additional Services</h2>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="expertise-item">
                             <div class="row">
+                                <!-- first -->
                                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-doctor-alt"></i>
-                                            <h3>Male Infertility Treatment</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="service-item">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="service-front">
+                                                    <img src="assets/img/home-two/icon_IVF.png" alt="image">
+                                                    <h3>Complementary Care</h3>
+                                                    VF & ICSI is a highly effective fertility technique where the egg and sperm...
+                                                </div>
+                                                <div class="service-end">
+                                                    <p>VF & ICSI is a highly effective fertility technique where the egg and sperm are allowed to fertilize in a lab. Once the embryo is formed. it is transferred into the uterus, possibly helping you conceive a baby.</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-stretcher"></i>
-                                            <h3>Sperm/Semen Processing</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </a>
-                                </div>
+
+                                <!-- second -->
                                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-network"></i>
-                                            <h3>C-Section</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="service-item">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="service-front">
+                                                    <img src="assets/img/home-two/icon_IVF.png" alt="image">
+                                                    <h3>Antenatal Care</h3>
+                                                    VF & ICSI is a highly effective fertility technique where the egg and sperm...
+                                                </div>
+                                                <div class="service-end">
+                                                    <p>VF & ICSI is a highly effective fertility technique where the egg and sperm are allowed to fertilize in a lab. Once the embryo is formed. it is transferred into the uterus, possibly helping you conceive a baby.</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-ambulance-cross"></i>
-                                            <h3>24 Hour Doctor</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                                <!-- third  -->
+                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="service-item">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="service-front">
+                                                    <img src="assets/img/home-two/icon_IVF.png" alt="image">
+                                                    <h3>Assisted Reproduction</h3>
+                                                    VF & ICSI is a highly effective fertility technique where the egg and sperm...
+                                                </div>
+                                                <div class="service-end">
+                                                    <p>VF & ICSI is a highly effective fertility technique where the egg and sperm are allowed to fertilize in a lab. Once the embryo is formed. it is transferred into the uterus, possibly helping you conceive a baby.</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </a>
+                                    </div>
+                                </div>
+
+                                <!-- fourth -->
+                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="service-item">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="service-front">
+                                                    <img src="assets/img/home-two/icon_IVF.png" alt="image">
+                                                    <h3>Timed Intercourse</h3>
+                                                    VF & ICSI is a highly effective fertility technique where the egg and sperm...
+                                                </div>
+                                                <div class="service-end">
+                                                    <p>VF & ICSI is a highly effective fertility technique where the egg and sperm are allowed to fertilize in a lab. Once the embryo is formed. it is transferred into the uterus, possibly helping you conceive a baby.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +272,7 @@
         <!-- End Expertise -->
 
         <!-- Blog -->
-        <section class="blog-area pt-100 pb-70">
+        <section class="blog-area ptb-100">
             <div class="container">
                 <div class="section-title">
                     <h2>Our Latest Blogs</h2>
@@ -329,143 +364,6 @@
         </section>
         <!-- End Blog -->
 
-        <!-- Footer -->
-        <footer class="pb-70">
-
-            <!-- Newsletter -->
-            <div class="newsletter-area">
-                <div class="container">
-                    <div class="row newsletter-wrap align-items-center">
-                        <div class="col-lg-7">
-                            <div class="newsletter-item">
-                                <h2>Join Our Newsletter</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="newsletter-item">
-                                <div class="newsletter-form">
-                                    <form class="newsletter-form" data-toggle="validator">
-                                        <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
-        
-                                        <button class="btn newsletter-btn" type="submit">
-                                            Subscribe
-                                        </button>
-        
-                                        <div id="validator-newsletter" class="form-result"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Newsletter -->
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-contact">
-                                <h3>Contact Us</h3>
-                                <ul>
-                                    <li>
-                                        <i class="icofont-ui-message"></i>
-                                        <a href="mailto:info@medisev.com">info@medisev.com</a>
-                                        <a href="mailto:hello@medisev.com">hello@medisev.com</a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-stock-mobile"></i>
-                                        <a href="tel:+07554332322">Call: +07 554 332 322</a>
-                                        <a href="tel:+236256256365">Call: +236 256 256 365</a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-location-pin"></i>
-                                        210-27 Quadra, Market Street, Victoria Canada
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="footer-item">
-                            <div class="footer-quick">
-                                <h3>Quick Links</h3>
-                                <ul>
-                                    <li>
-                                        <a href="about.html">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-details.html">Our Expertise</a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html">Faq</a>
-                                    </li>
-                                    <li>
-                                        <a href="doctor.html">Doctors</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <div class="footer-quick">
-                                <h3>Our Services</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Dental Care</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Cardiology</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Hijama Therapy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Massage Therapy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Ambluance Sevices</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Medicine</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <div class="footer-feedback">
-                                <h3>Feedback</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="your_message" rows="5" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="text-left">
-                                        <button type="submit" class="btn feedback-btn">SUBMIT</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End Footer -->
 
         <!-- include footer -->
         <?php include 'includes/footer.php';?>

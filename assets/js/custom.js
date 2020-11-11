@@ -16,6 +16,8 @@
 		meanScreenWidth: "991"
 	});
 
+	
+
 	// Home Slider JS
 	$('.home-slider').owlCarousel({
 		items:1,
@@ -246,3 +248,15 @@ $('[data-toggle="datepicker"]').datepicker();
 // Dynamic date
 const year = document.querySelector('.fullYear');
 year.innerHTML = new Date().getFullYear() + ',';
+
+
+// active link
+const links = document.querySelectorAll('.nav-item');
+
+links.forEach(function(item) {
+	item.addEventListener('click', function() {
+		item.classList.add('active');
+		console.log('hello')
+
+	})
+});

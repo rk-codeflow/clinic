@@ -48,7 +48,7 @@
 
     <title>NIFCL - Best infertility center</title>
 
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon1.png">
 </head>
 
 <body>
@@ -95,7 +95,7 @@
                     <div class="header-top-item">
                         <div class="header-top-right">
                             <ul>
-                                <li class="apt-btn"><a href="appointment.php"><i class="icofont-calendar"></i> Book an Appointment </a></li>
+                                <li class="apt-btn"><a href="appointment.php"><i class="icofont-calendar mr-2"></i>Get Appointment </a></li>
                                 <li class="facebook-ico">
                                     <a href="#">
                                         <i class="icofont-facebook"></i>
@@ -124,7 +124,7 @@
     <div class="navbar-area sticky-top">
         <!-- Menu For Mobile Device -->
         <div class="mobile-nav">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="assets/img/logo-two.png" alt="Logo">
             </a>
         </div>
@@ -189,3 +189,6 @@
         </div>
     </div>
     <!-- End Navbar Area -->
+
+
+

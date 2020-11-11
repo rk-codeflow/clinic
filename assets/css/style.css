@@ -25,7 +25,7 @@ This files table contents are outlined below>>>>>
 ** - Newsletter CSS
 ** - Footer CSS
 ** - Copyright CSS
-** - Emergency CSS
+** - y CSS
 ** - Welcome CSS
 ** - Speciality CSS
 ** - Appointment CSS
@@ -57,14 +57,24 @@ This files table contents are outlined below>>>>>
 
 /*-- Default CSS --*/
 
+:root {
+    --gray-bg: #d8e0e8;
+    --orange: #ff6a00;
+    --white: #fff;
+    --black: #111;
+    --light-blue: #4a6f8a;
+    --blue: #0072b6;
+    --light-black: #282828;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    color: #4a6f8a;
-    background-color: #ffffff;
+    color: var(--light-blue);
+    background-color: var(--white);
     font-size: 15px;
 }
 
@@ -269,24 +279,26 @@ button:focus {
 }
 
 .header-top-item .header-top-right .apt-btn a {
-    background-color: #0072b6;
-    color: #fff;
+    /* background-color: var(--gray-bg); */
+    background: transparent;
+    color: var(--orange);
     padding: 0px 8px;
     width: auto;
     height: 25px;
     font-size: 12px;
     font-weight: 400;
     border-radius: 4px;
+    border: 1px solid var(--orange);
 }
 
 .header-top-item .header-top-right .apt-btn a:hover {
-    background-color: #ff6a00;
-    color: #fff;
-    transition: background 500ms linear;
-    -webkit-transition: background 500ms linear;
-    -moz-transition: background 500ms linear;
-    -ms-transition: background 500ms linear;
-    -o-transition: background 500ms linear;
+    background-color: var(--orange);
+    color: var(--white);
+    transition: background 400ms ease-in, color 400ms ease-in;
+    -webkit-transition: background 400ms ease-in, color 400ms ease-in;
+    -moz-transition: background 400ms ease-in, color 400ms ease-in;
+    -ms-transition: background 400ms ease-in, color 400ms ease-in;
+    -o-transition: background 400ms ease-in, color 400ms ease-in;
 }
 
 .header-top-item .header-top-right {
@@ -304,7 +316,11 @@ button:focus {
     margin-right: 5px;
 }
 
-.facebook-ico a {
+.header-top-item .header-top-right ul li.social-icon {
+    background: ;
+}
+
+/* .facebook-ico a {
     background-color: #3b5998 !important;
     border: 0 !important;
 }
@@ -317,7 +333,7 @@ button:focus {
 .insta-ico a {
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
     border: 0 !important;
-}
+} */
 
 .header-top-item .header-top-right ul li:last-child {
     margin-right: 0;
@@ -332,13 +348,17 @@ button:focus {
     font-size: 16px;
     text-align: center;
     border: 1px solid transparent;
-    background-color: #ff6a00;
+    background-color: var(--gray-bg);
 }
 
 .header-top-item .header-top-right ul li a:hover {
-    color: #ccc;
-    background-color: transparent;
-    ;
+    /*color: #ccc;
+    */background-color: var(--black);
+    transition:   background-color 300ms ease-in  ;
+    -webkit-transition:   background-color 300ms ease-in  ;
+    -moz-transition:   background-color 300ms ease-in  ;
+    -ms-transition:   background-color 300ms ease-in  ;
+    -o-transition:   background-color 300ms ease-in  ;
 }
 
 
@@ -426,9 +446,14 @@ button:focus {
 
 }
 
+.active {
+    color: #ff6a00;
+}
+
 .main-nav nav .navbar-nav .nav-item a:hover,
 .main-nav nav .navbar-nav .nav-item a:focus,
-.main-nav nav .navbar-nav .nav-item a.active {
+.main-nav nav .navbar-nav .nav-item a.active
+ {
     color: #ff6a00;
 }
 
@@ -438,8 +463,8 @@ button:focus {
     outline: none;
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
-    color: #ff6a00;
-    background-color: #d8e0e8;
+    color: var(--white);
+    background-color: var(--gray-bg);
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -448,7 +473,7 @@ button:focus {
 
 .search-icon:hover {
     background-color: #111111;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .search-toggle .search-icon.icon-close {
@@ -727,22 +752,23 @@ button:focus {
 
 .counter-item i {
     display: block;
-    color: #ff6a00;
+    color: #0072b6;
     font-size: 45px;
     margin-bottom: 20px;
 }
 
 .counter-item h3 {
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 400;
+    font-size: 42px;
     color: #ff6a00;
     margin-bottom: 8px;
 }
 
 .counter-item p {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
+    color: #000;
 }
 
 
@@ -1670,11 +1696,11 @@ button:focus {
 /*-- Footer --*/
 
 footer {
-    background-image: url("../img/home-one/14.png");
+    background-image: url("../img/footer.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #0072b6;
+    background-color: var(--gray-bg);
     padding-top: 60px;
     position: relative;
 }
@@ -1684,9 +1710,9 @@ footer {
 }
 
 .opt-hr td {
-    color: #fff;
+    color: var(--light-black);
     padding: 5px 0;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid var(--light-black)
 }
 
 .footer-item {
@@ -1694,7 +1720,7 @@ footer {
 }
 
 .footer-item .footer-contact h3 {
-    color: #ffffff;
+    color: var(--light-black);
     font-weight: 400;
     font-size: 21px;
     margin-bottom: 30px;
@@ -1708,7 +1734,7 @@ footer {
 .footer-item .footer-contact ul li {
     list-style-type: none;
     display: block;
-    color: #ffffff;
+    color: var(--light-black);
     font-weight: 400;
     font-size: 15px;
     padding-left: 35px;
@@ -1727,7 +1753,7 @@ footer {
 
 .footer-item .footer-contact ul li a {
     display: block;
-    color: #ffffff;
+    color: var(--light-black);
     margin-bottom: 7px;
 }
 
@@ -1753,7 +1779,7 @@ footer {
 }
 
 .footer-item .footer-quick h3 {
-    color: #ffffff;
+    color: var(--light-black);
     font-weight: 400;
     font-size: 21px;
     margin-bottom: 30px;
@@ -1778,7 +1804,7 @@ footer {
     display: block;
     font-weight: 500;
     font-size: 15px;
-    color: #ffffff;
+    color: var(--light-black);
 }
 
 .footer-item .footer-quick ul li a:hover {
@@ -1786,7 +1812,7 @@ footer {
 }
 
 .footer-item .footer-feedback h3 {
-    color: #ffffff;
+    color: var(--light-black);
     font-weight: 400;
     font-size: 21px;
     margin-bottom: 30px;
@@ -1853,7 +1879,8 @@ footer {
 /*-- Copyright --*/
 
 .copyright-area {
-    background-color: #001230;
+    /* background-color: #001230; */
+    background-color: var(--white);
 }
 
 .copyright-area .copyright-item {
@@ -1863,7 +1890,7 @@ footer {
 
 .copyright-area .copyright-item p {
     margin-bottom: 0;
-    color: #ffffff;
+    color: var(--orange);
     font-weight: 500;
     font-size: 14px;
     text-align: center;
@@ -2017,14 +2044,14 @@ footer {
 }
 
 .emergency-item .emergency-inner h3 {
-    color: #ff6a00;
+    color: var(--orange);
     margin-bottom: 18px;
     font-size: 21px;
     font-weight: 400;
 }
 
 .emergency-item .emergency-inner p {
-    color: #000;
+    /* color: #000; */
     margin-bottom: 0;
     font-size: 14px;
 }
@@ -2235,7 +2262,7 @@ footer {
     margin-bottom: 8px;
     position: absolute;
     top: 23px;
-    right: 70px;
+    right: 139px;
 }
 
 .speciality-right .speciality-emergency p {
@@ -2289,8 +2316,8 @@ footer {
 /*-- Counter --*/
 
 .counter-area-two .counter-bg {
-    margin-top: 0;
-    bottom: -100px;
+    /* margin-top: 0; */
+    /* bottom: -100px; */
 }
 
 
@@ -3003,7 +3030,7 @@ footer {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 330px;
     text-align: center;
     position: relative;
 }
@@ -3016,12 +3043,12 @@ footer {
     width: 100%;
     height: 100%;
     opacity: .50;
-    background-color: #ff6a00;
+    background-color: var(--light-blue);
 }
 
 .page-title-item {
     position: relative;
-    margin-top: -80px;
+    /* margin-top: -80px; */
 }
 
 .page-title-item h2 {
@@ -3160,7 +3187,7 @@ footer {
 /*-- Doctor --*/
 
 .doctors-area-two {
-    padding-bottom: 180px;
+    /* padding-bottom: 180px; */
     position: relative;
 }
 
@@ -3186,11 +3213,10 @@ footer {
 
 .page-title-two {
     background-image: url("../img/appointment/appoint.jpg");
-    height: 440px;
 }
 
 .page-title-two .page-title-item {
-    margin-top: -135px;
+    margin-top: -100px;
 }
 
 
@@ -3939,9 +3965,7 @@ footer {
 
 /*-- Blog --*/
 
-.blog-area-two {
-    padding-bottom: 180px;
-}
+
 
 .blog-area-two .section-title {
     margin-bottom: 0;
@@ -3998,7 +4022,7 @@ footer {
     padding-top: 80px;
     padding-bottom: 50px;
     padding-left: 170px;
-    margin-top: -125px;
+    margin-top: -100px;
     position: relative;
     background-color: #ffffff;
 }
@@ -4493,6 +4517,7 @@ footer {
     max-width: 620px;
     margin-left: auto;
     margin-right: auto;
+    color: #4A6F8A;
 }
 
 
@@ -5504,4 +5529,9 @@ footer {
     position: relative;
     top: 10px;
     left: 130px;
+}
+
+/**** blog *****/
+.page-title-seven {
+    background-image: url(../img/blog/blog.jpg);
 }

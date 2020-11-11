@@ -9,7 +9,7 @@
                         <h2>Meet Our Team</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
                                 <i class="icofont-simple-right"></i>
@@ -64,7 +64,7 @@
                     <!-- first row ends -->
 
                     <!-- second row -->
-                    <div class="team__content-down">
+                    <div class="team__content-down pt-4">
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
                                 <div class="team__down-left">

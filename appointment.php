@@ -9,7 +9,7 @@
                         <h2>Get Your  Appointment</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
                                 <i class="icofont-simple-right"></i>
@@ -24,9 +24,9 @@
 
         <!-- Appointment -->
         <section class="appointment-area-two">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center appointment-wrap-two">
-                    <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
                         <div class="appointment-item appointment-item-two">
                             <div class="appointment-shape">
                                 <img src="assets/img/appointment/3.png" alt="Shape">
@@ -97,199 +97,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="appointment-item-two-right">
-                            <div class="appointment-item-content">
-                                <h2>Working Hours</h2>
-                                <div class="content-one">
-                                    <ul>
-                                        <li>Monday</li>
-                                        <li>Tuesday</li>
-                                        <li>Wednesday</li>
-                                        <li>Thursday</li>
-                                        <li>Friday</li>
-                                        <li>Saturday</li>
-                                    </ul>
-                                </div>
-                                <div class="content-two">
-                                    <ul>
-                                        <li>9:00 am - 8:00 pm</li>
-                                        <li>9:00 am - 8:00 pm</li>
-                                        <li>9:00 am - 8:00 pm</li>
-                                        <li>9:00 am - 8:00 pm</li>
-                                        <li>9:00 am - 8:00 pm</li>
-                                        <li>9:00 am - 8:00 pm</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
         <!-- End Appointment -->
 
-        <!-- new appointment page -->
-       <section class="appointment ptb-100">
-           <div class="container">
-               <div class="row no-gutters">
-                   <!-- appointment left -->
-                   <div class="col-lg-5">
-                       <div class="appointment__left">
-                           <h4 class="text-center text-white">Services offered to you</h4>
-                           <ul class="">
-                               <li>
-                                   <i class="icofont-doctor-alt"></i>
-                                   <span class="appointment__text">Expert medical advice</span>
-                               </li>
-
-                               <li>
-                                   <i class="icofont-google-talk"></i>
-                                   <span class="appointment__text">One-on-one conversation</span>
-                                </li>
-
-                               <li>
-                                   <i class="icofont-medicine"></i>
-                                   <span class="appointment__text">30% off on medical prescription</span>
-                                </li>
-
-                               <li>
-                                   <i class="icofont-blood-test"></i>
-                                   <span class="appointment__text">Up to 60% off on Diagnostic tests</span>
-                               </li>
-                           </ul>
-                       </div>
-                   </div>
-        <!-- appointment left ends-->
-
-        <!-- appointment right -->
-        <div class="col-lg-7">
-            <div class="appointment__right">
-                <div class="appointment__right-text">
-                    <img src="assets/img/doctor/doc1.jpg" class="appoint-doc img-fluid" width="" alt="doc 1">
-                    <p class="appoint__rt-text">Request appointment  with <br> Dr. Gyanendra Man Singh</p>
-                </div>
-
-                <div class="appointment__form mt-4">
-                    <form>
-                    <!-- first row -->
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-user-suited icon"></i></div>
-                                </div>
-
-                                <input type="text" class="form-control" id="firstName" placeholder="Enter your firstname">
-                            </div>                        
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-user-suited icon"></i></div>
-                                </div> 
-                                <input type="text" class="form-control" id="lastName" placeholder="Enter your lastname">
-                            </div>                        
-                        </div>    
-                      </div>
-
-                <!-- first row ends -->
-
-                <!-- second row -->
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-cube icon"></i></div>
-                                </div>
-
-                                <input type="text" class="form-control" id="city" placeholder="Enter your city">
-                            </div>                        
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-cube icon"></i></div>
-                                </div> 
-                                <input type="text" class="form-control" id="state" placeholder="Enter your state">
-                            </div>                        
-                        </div>    
-                      </div>
-
-                <!-- second row ends -->
-
-                <!-- 3rd row -->
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-numbered icon"></i></div>
-                                </div>
-
-                            <select class="form-control" id="age">
-                              <option>Select your age</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
-                            </select>
-                            </div>                        
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-numbered icon"></i></div>
-                                </div> 
-
-                            <select class="form-control" id="gender">
-                              <option>Gender</option>
-                              <option>Male</option>
-                              <option>Female</option>
-                            </select>                                                   
-                        </div>    
-                      </div>
-                    </div>
-                <!-- 3rd row ends -->
-
-                <!-- 4th row -->
-                <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-ui-calendar icon"></i></div>
-                                </div>
-
-                            <input type="text" class="form-control" id="date"  data-toggle="datepicker" placeholder="Select date">
-
-                            </div>                        
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                  <div class="input-group-text"><i class="icofont-wall-clock icon"></i></div>
-                                </div> 
-
-                            <input type="time" class="form-control" id="time" name="time" min="09:00" max="18:00" required>                                               
-                        </div>    
-                      </div>
-                    </div>      
-                <!-- 4th row ends -->
-                <div class="submit-btn">
-                    <a href="#" class="btn btn__submit w-100">Submit</a>
-                </div>
-                    </form>
-                    
-                </div>
-            </div>
-        </div>
-        <!-- appointment right ends -->
-               </div>
-           </div>
-       </section>
+        
        
         <!-- Footer -->
         <footer class="pb-70">

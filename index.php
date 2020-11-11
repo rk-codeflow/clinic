@@ -389,6 +389,7 @@
         </div>
     </section>
     <!-- End Testimonials -->
+
     <!-- Video -->
     <div class="video-wrap video-wrap-two">
         <div class="container-fluid p-0">
@@ -398,16 +399,15 @@
                         <div class="d-table">
                             <div class="d-table-cell">
                                 <div class="container">
-                                    <div class="video-item">
-                                        <iframe width="100%" height="560" src="https://www.youtube.com/embed/8i-11qLNCjc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <!-- <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
+                                    <div class="video-item">   
+                                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
                                             <i class="icofont-ui-play"></i>
-                                        </a> -->
-                                        <!-- <div class="video-content">
+                                        </a>
+                                        <div class="video-content">
                                             <h3>Hospital Introduction</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
                                                 vel facilisis. </p>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -419,16 +419,16 @@
                         <div class="d-table">
                             <div class="d-table-cell">
                                 <div class="container">
-                                    <div class="video-item">
-                                        <!-- <a href="#">
+                                    <div class="video-item"  class="popup-youtube">
+                                        <a href="https://www.youtube.com/watch?v=fifrimVOGEw" class="popup-youtube">
                                             <i class="icofont-ui-play"></i>
-                                        </a> -->
-                                        <iframe width="100%" height="560" src="https://www.youtube.com/embed/d0lblhcntSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <!-- <div class="video-content">
+                                        </a>
+                                        <!-- <iframe width="100%" height="560" src="https://www.youtube.com/embed/d0lblhcntSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                         <div class="video-content">
                                             <h3>About Our Pharmacy</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
                                                 vel facilisis. </p>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -441,15 +441,15 @@
                             <div class="d-table-cell">
                                 <div class="container">
                                     <div class="video-item">
-                                        <!-- <a href="#">
+                                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
                                             <i class="icofont-ui-play"></i>
-                                        </a> -->
-                                        <iframe width="100%" height="560" src="https://www.youtube.com/embed/ZsS6BnmArXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <!-- <div class="video-content">
+                                        </a>
+                                        <!-- <iframe width="100%" height="560" src="https://www.youtube.com/embed/ZsS6BnmArXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        <div class="video-content">
                                             <h3>Our reasearch center and lab </h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
                                                 vel facilisis. </p>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -462,15 +462,15 @@
                             <div class="d-table-cell">
                                 <div class="container">
                                     <div class="video-item">
-                                        <!-- <a href="#">
+                                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
                                             <i class="icofont-ui-play"></i>
-                                        </a> -->
-                                        <iframe width="100%" height="560" src="https://www.youtube.com/embed/2bPNYqz3qao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        <!-- <div class="video-content">
+                                        </a>
+                                        <!-- <iframe width="100%" height="560" src="https://www.youtube.com/embed/2bPNYqz3qao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        <div class="video-content">
                                             <h3>CCU & ICU</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
                                                 vel facilisis. </p>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -523,8 +523,10 @@
     </div>
     <!-- End Video -->
 
+    
+
     <!-- Doctors -->
-    <section class="doctors-area pt-100">
+    <section class="doctors-area ptb-100">
         <div class="container">
             <div class="section-title-two">
                 <span class="sub-heading">Doctors</span>
@@ -585,41 +587,37 @@
     <!-- End Doctors -->
 
     <!-- Counter -->
-    <!-- <div class="counter-area counter-area-two">
-        <div class="container">
-            <div class="row counter-bg">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter-item">
-                        <i class="icofont-patient-bed"></i>
-                        <h3 class="counter">850</h3>
-                        <p>Patients Beds</p>
+        <div class="counter-area counter-bg counter-area-four">
+            <div class="container">
+                <div class="row">       
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="counter-item">
+                            <i class="icofont-people"></i>
+                            <h3><span class="counter">25000</span>+</h3>
+                            <p>Happy Patients</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter-item">
-                        <i class="icofont-people"></i>
-                        <h3><span class="counter">25000</span>+</h3>
-                        <p>Happy Patients</p>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="counter-item">
+                            <i class="icofont-doctor-alt"></i>
+                            <h3 class="counter">750</h3>
+                            <p>Doctors  & Nurse</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter-item">
-                        <i class="icofont-doctor-alt"></i>
-                        <h3 class="counter">750</h3>
-                        <p>Doctors & Nurse</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="counter-item">
-                        <i class="icofont-badge"></i>
-                        <h3 class="counter">18</h3>
-                        <p>Year Experience</p>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="counter-item">
+                            <i class="icofont-badge"></i>
+                            <h3 class="counter">18</h3>
+                            <p>Year Experience</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- End Counter -->
+        <!-- End Counter -->
+        
+
+    
 
     <!-- Appointment -->
     <!-- <section class="appointment-area pb-100">
