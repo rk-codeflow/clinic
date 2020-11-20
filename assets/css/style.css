@@ -5551,3 +5551,16 @@ footer {
 .opt-hr {
     width: 88%;
 }
+
+.location i.location-icon {
+   display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    background-color: #ff6a00; 
+}

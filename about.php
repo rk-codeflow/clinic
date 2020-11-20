@@ -40,21 +40,6 @@
                             <p>Nepal International Fertility and Laparoscopic Centre (NIFLC) was established in 2013 A.D. with a vision to become the best infertility center in Nepal by providing world-class infertility treatment solutions.  NIFLC is one of the leading centres to treat infertility. With the best specialist, we have been able to bring joy in a lot of families. We have successfully been able to fulfil the need of infertile parents or childless couples.</p>
 
                             <p>We not only focus on the infertility part but, we also provide services like egg donation, sperm donation, vitrification, embryo freezing, sperm retrieval, assisted reproduction, sperm washing and semen processing. With our health professionals we also provide antenatal care. Our IVF centre is committed to providing professional, ethical and individualized reproductive care to you. Utilizing the best technology, we offer you ultrasound so we can track the growth and development of your baby. </p>
-                            <!-- <ul>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                    Browse Our Website
-                                </li>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                    Choose Service
-                                </li>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                    Send Messege
-                                </li>
-                            </ul>
-                            <a href="about.html">Know More</a> -->
                         </div>
                     </div>
                 </div>
@@ -165,18 +150,18 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="blog-item">
                             <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/11.jpg" alt="Blog">
+                                <a href="blog-details.php">
+                                    <img src="assets/img/blog/img1.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
                                 <h3>
-                                    <a href="blog-details.html">In this hospital there are special surgeon.</a>
+                                    <a href="blog-details.php">In this hospital there are special surgeon.</a>
                                 </h3>
                                 <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                                 <ul>
                                     <li>
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>
@@ -192,18 +177,18 @@
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
                         <div class="blog-item">
                             <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/12.jpg" alt="Blog">
+                                <a href="blog-details.php">
+                                    <img src="assets/img/blog/img2.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
                                 <h3>
-                                    <a href="blog-details.html">World AIDS Day, designated on 1 December.</a>
+                                    <a href="blog-details.php">World AIDS Day, designated on 1 December.</a>
                                 </h3>
                                 <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                                 <ul>
                                     <li>
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>
@@ -219,18 +204,18 @@
                     <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
                         <div class="blog-item">
                             <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/13.jpg" alt="Blog">
+                                <a href="blog-details.php">
+                                    <img src="assets/img/blog/img3.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
                                 <h3>
-                                    <a href="blog-details.html">More than 80 clinical trials launch to test coronavirus.</a>
+                                    <a href="blog-details.php">More than 80 clinical trials launch to test coronavirus.</a>
                                 </h3>
                                 <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                                 <ul>
                                     <li>
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>

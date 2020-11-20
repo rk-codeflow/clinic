@@ -22,13 +22,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-4">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="footer-item">
                         <div class="footer-quick">
                             <h3>Quick Links</h3>
                             
                             <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-md-">
+                                <div class="col-lg-6 col-sm-6 col-6">
                                     <div class="quick-links">
                                         <ul>
                                             <li>
@@ -49,7 +49,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-sm-6 col-md-">
+                                <div class="col-lg-6 col-sm-6 col-6">
                                     <div class="quick-links">
                                         <ul>
                                             <li>

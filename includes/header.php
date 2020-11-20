@@ -54,17 +54,16 @@
 <body>
 
     <!-- Preloader -->
-    <div class="loader">
+    <!-- <div class="loader">
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="spinner">
                     <div class="double-bounce1"></div>
                     <div class="double-bounce2"></div>
-                    <!-- <img src="assets/img/logo.png" alt=""> -->
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Preloader -->
 
     <!-- Header Top -->

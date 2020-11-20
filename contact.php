@@ -23,7 +23,7 @@
         <!-- End Page Title -->
 
         <!-- Location -->
-        <div class="location-area">
+        <!-- <div class="location-area">
             <div class="container">
                 <div class="row location-wrap">
                     <div class="col-sm-6 col-lg-4">
@@ -55,9 +55,44 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Location -->
 
+        <!-- location -->
+    <div class="emergency-area location">
+        <div class="container">
+            <div class="row emergency-bg">
+                <div class="col-sm-6 col-lg-4 pl-lg-5">
+                    <div class="emergency-item">
+                            <i class="icofont-location-pin location-icon" style="float: left;margin-right:15px"></i>
+                        <div class="emergency-inner">
+                            <h3>Location</h3>
+                            <span>5th Floor, Nidan Hospital Building, Pulchowk Road (Opposite Sajha Petrol Pump), Lalitpur, Nepal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 pl-lg-5">
+                    <div class="emergency-item">
+                        <i class="icofont-ui-message location-icon" style="float: left;margin-right:15px"></i>
+                        <div class="emergency-inner">
+                            <h3 class="emergency-head-txlocation-icont">Email</h3>
+                            <span>info@niflc.com.np</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-sm- offset-lg-0 col-lg-4">
+                    <div class="emergency-item">
+                        <i class="icofont-ui-call location-icon" style="float: left;margin-right:15px"></i>
+                        <div class="emergency-inner">
+                            <h3>Phone</h3>
+                            <span>+977-01-5555499, 9813755826</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End location -->
         
 
         <!-- Drop -->
