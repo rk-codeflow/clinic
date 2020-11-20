@@ -4040,9 +4040,9 @@ footer {
 
 .location-wrap .location-item i {
     display: inline-block;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
     border-radius: 50%;
     color: #ffffff;
     text-align: center;
@@ -5544,4 +5544,10 @@ footer {
 /**** blog *****/
 .page-title-seven {
     background-image: url(../img/blog/blog.jpg);
+}
+
+/** footer **/
+
+.opt-hr {
+    width: 88%;
 }

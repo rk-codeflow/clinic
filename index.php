@@ -81,7 +81,7 @@
                     <div class="emergency-item">
                         <img src="assets/img/home-two/treatment_icon.png" style="width:75px; float: left;margin-right:15px">
                         <div class="emergency-inner">
-                            <h3>Personalized Treatment</h3>
+                            <h3 class="emergency-head-txt">Personalized Treatment</h3>
                             <p>NIFLC believes in personalized treatment for each couple because causes of infertility may differ from couple to couple.</p>
                         </div>
                     </div>

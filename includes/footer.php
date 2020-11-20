@@ -2,7 +2,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-5">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="footer-item">
                         <div class="footer-contact">
                             <h3>Contact Us</h3>
@@ -22,45 +22,58 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-3 col-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-4">
                     <div class="footer-item">
                         <div class="footer-quick">
                             <h3>Quick Links</h3>
-                            <ul>
-                                <li>
-                                    <a href="index.php">Home</a>
-                                </li>
+                            
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-md-">
+                                    <div class="quick-links">
+                                        <ul>
+                                            <li>
+                                                <a href="index.php">Home</a>
+                                            </li>
 
-                                <li>
-                                    <a href="about.php">About us</a>
-                                </li>
-                      
-                                <li>
-                                    <a href="doctor.php">Our Team</a>
-                                </li>
+                                            <li>
+                                                <a href="about.php">About us</a>
+                                            </li>
+                                  
+                                            <li>
+                                                <a href="doctor.php">Our Team</a>
+                                            </li>
 
-                                <li>
-                                    <a href="services.php">Our Services</a>
-                                </li>
+                                            <li>
+                                                <a href="services.php">Our Services</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-md-">
+                                    <div class="quick-links">
+                                        <ul>
+                                            <li>
+                                                <a href="services.php">Gallery</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="blog.php">Blogs</a>
+                                            </li>
 
-                                <li>
-                                    <a href="services.php">Gallery</a>
-                                </li>
-                                
-                                <li>
-                                    <a href="blog.php">Blogs</a>
-                                </li>
+                                            <li>
+                                                <a href="contact.php">Contact us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
 
-                                <li>
-                                    <a href="contact.php">Contact us</a>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 
-                <div class="col-lg-4 col-sm-4  col-8">
+                <div class="col-lg-4 col-md-4 col-sm-12  col-8">
                     <div class="footer-item">
                         <div class="footer-feedback">
                             <h3>Operation Hours</h3>

@@ -28,15 +28,15 @@
                 <div class="row location-wrap">
                     <div class="col-sm-6 col-lg-4">
                         <div class="location-item">
-                            <i class="icofont-location-pin"></i>
+                            <i class="icofont-location-pin" style="float: left;margin-right:15px"></i>
                             <h3>Location</h3>
-                            <p>5th Floor, Nidan Hospital Building, Pulchowk Road (Opposite Sajha Petrol Pump),
+                            <p>5th Floor, Nidan Hospital Building, <br> Pulchowk Road (Opposite Sajha <br> Petrol Pump),
                                 Lalitpur, Nepal</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="location-item">
-                            <i class="icofont-ui-message"></i>
+                            <i class="icofont-ui-message" style="float: left;margin-right:15px"></i>
                             <h3>Email</h3>
                             <ul>
                                 <li>info@niflc.com.np</li>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
                         <div class="location-item">
-                            <i class="icofont-ui-call"></i>
+                            <i class="icofont-ui-call" style="float: left;margin-right:15px"></i>
                             <h3>Phone</h3>
                             <ul>
                                 <li>+977-01-5555499</li>
@@ -57,6 +57,8 @@
             </div>
         </div>
         <!-- End Location -->
+
+        
 
         <!-- Drop -->
         <section class="drop-area pt-100">
@@ -134,7 +136,7 @@
 
         <!-- Map -->
         <!-- Start Map Area -->
-		<div class="contact-map-area pt-100">
+		<div class="contact-map-area">
 			<div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 p-0">

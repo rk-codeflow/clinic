@@ -536,8 +536,8 @@
         width: 60px;
         height: 60px;
         line-height: 60px;
-        -webkit-box-shadow: 0px 0px 0px 6px #0046c0;
-        box-shadow: 0px 0px 0px 6px #0046c0;
+        -webkit-box-shadow: 0px 0px 0px 6px var(--orange);
+        box-shadow: 0px 0px 0px 6px var(--orange);
     }
     .welcome-item ul li .welcome-inner {
         padding-left: 75px;
@@ -2075,8 +2075,8 @@
         width: 65px;
         height: 65px;
         line-height: 65px;
-        -webkit-box-shadow: 0px 0px 0px 6px #0046c0;
-        box-shadow: 0px 0px 0px 6px #0046c0;
+        -webkit-box-shadow: 0px 0px 0px 6px var(--orange);
+        box-shadow: 0px 0px 0px 6px var(--orange);
     }
     .welcome-item ul li .welcome-inner {
         padding-left: 90px;
@@ -3175,6 +3175,63 @@
         position: relative;
         top: -40px;
         left: 21px;
+    }
+
+    h3.emergency-head-txt {
+        padding-bottom: 45px;
+    }
+
+    .location-wrap .location-item p {
+        clear: left;
+        position: relative;
+        top: -45px;
+        left: 78px;
+        font-size: clamp(13px, 3vw, 15px);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .emergency-item .emergency-inner p {
+        clear: left;
+        text-align: justify;
+        padding-right: 43px;
+        position: relative;
+        top: -40px;
+        left: 21px;
+    }
+
+    .location-wrap .location-item p {
+        clear: left;
+        position: relative;
+        top: -45px;
+        left: 78px;
+        font-size: clamp(12px, 3vw, 15px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .emergency-item .emergency-inner p {
+        clear: left;
+        text-align: justify;
+        padding-right: 43px;
+        position: relative;
+        top: -40px;
+        left: 21px;
+    }
+
+    h3.emergency-head-txt {
+        padding-bottom: 25px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .location-wrap .location-item p {
+        clear: left;
+        position: relative;
+        top: -26px;
+        left: 73px;
+        font-size: clamp(12px, 3vw, 14px);
     }
 }
 
