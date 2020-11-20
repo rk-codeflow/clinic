@@ -1,5 +1,5 @@
         <!-- include header -->
-        <?php include 'includes/header.php';?>
+        <?php $page = 'blog';  include 'includes/header.php';?>
 
         <!-- Page Title -->
         <div class="page-title-area page-title-five">
@@ -23,14 +23,14 @@
         <!-- End Page Title -->
 
         <!-- Blog -->
-        <section class="blog-area-two pt-100">
+        <section class="blog-area-two ptb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/11.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img1.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -59,7 +59,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/12.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img2.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -86,7 +86,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/13.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img3.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -113,7 +113,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/15.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img4.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -140,7 +140,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/16.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img5.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -167,7 +167,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/17.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img6.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -194,7 +194,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/18.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img7.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -221,7 +221,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/19.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img8.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -248,7 +248,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.php">
-                                    <img src="assets/img/home-one/20.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img9.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">

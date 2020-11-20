@@ -1,5 +1,5 @@
 <!-- include header -->
-        <?php include 'includes/header.php';?>
+        <?php $page = 'gallery'; include 'includes/header.php';?>
 
         <!-- Page Title -->
         <div class="page-title-area page-title-four">
@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-5">
-                        <div class="gallery__text">
+                        <div class="gallery__text section-title-two">
                             <span class="sub__heading">Gallery</span>
                             <h2 class="main__heading">Few Glimpses of Our Programmes</h2>
                         </div>

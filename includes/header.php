@@ -70,7 +70,7 @@
     <div class="header-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-sm-8 col-lg-8">
+                <div class="col-lg-8 col-sm-8 col-md-7">
                     <div class="header-top-item">
                         <div class="header-top-left">
                             <ul>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-lg-4">
+                <div class="col-sm-4 col-lg-4 col-md-5">
                     <div class="header-top-item">
                         <div class="header-top-right">
                             <ul>
@@ -108,7 +108,8 @@
                                 </li>
                                 <li class="insta-ico">
                                     <a href="#">
-                                        <i class="icofont-instagram"></i>
+                                        <!-- <i class="icofont-instagram"></i> -->
+                                        <img src="assets/img/insta.png"  alt="insta">
                                     </a>
                                 </li>
                             </ul>
@@ -137,36 +138,36 @@
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav" id="navs">
                             <li class="nav-item">
-                                <a href="index.php" class="nav-link">Home</a>
+                                <a href="index.php" class="nav-link <?php if($page=='home'){echo 'active';}?>">Home</a>
                             </li>
                             
                             <li class="nav-item">
-                                <a href="about.php" class="nav-link">About Us</a>
+                                <a href="about.php" class="nav-link <?php if($page=='about'){echo 'active';}?>">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="doctor.php" class="nav-link dropdown-toggle">Our Team</a>
+                                <a href="doctor.php" class="nav-link dropdown-toggle <?php if($page=='team'){echo 'active';}?>">Our Team</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="doctor.php" class="nav-link">Doctors</a>
+                                        <a href="doctor.php" class="nav-link <?php if($page=='doctor'){echo 'active';}?>">Doctors</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="team.php" class="nav-link">Teams</a>
+                                        <a href="team.php" class="nav-link <?php if($page=='team'){echo 'active';}?>">Teams</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="service.php" class="nav-link">Our Services</a>
+                                <a href="service.php" class="nav-link <?php if($page=='service'){echo 'active';}?>">Our Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="gallery.php" class="nav-link">Gallery</a>
+                                <a href="gallery.php" class="nav-link <?php if($page=='gallery'){echo 'active';}?>">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a href="blog.php" class="nav-link">Blogs</a>
+                                <a href="blog.php" class="nav-link <?php if($page=='blog'){echo 'active';}?>">Blogs</a>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.php" class="nav-link">Contact Us</a>
+                                <a href="contact.php" class="nav-link <?php if($page=='contact'){echo 'active';}?>">Contact Us</a>
                             </li>
 
 

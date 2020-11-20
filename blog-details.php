@@ -29,7 +29,7 @@
                     <div class="col-lg-8">
                         <div class="blog-details-item">
                             <div class="blog-details-img">
-                                <img src="assets/img/blog/2.jpg" alt="Blog">
+                                <img src="assets/img/blog/blog1.jpg" alt="Blog">
                                 <h2>More than 80 clinical trials launch to test  of the coronavirus .</h2>
                                 <ul>
                                     <li>
@@ -84,7 +84,7 @@
                                 <h3>Recent Blogs</h3>
                                 <ul>
                                     <li>
-                                        <img src="assets/img/blog/3.jpg" alt="Recent">
+                                        <img src="assets/img/blog/pic1.jpg" alt="Recent">
                                         <a href="blog-details.php">World AIDS Day, designated on 1 December.</a>
                                         <ul>
                                             <li>
@@ -100,7 +100,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <img src="assets/img/blog/4.jpg" alt="Recent">
+                                        <img src="assets/img/blog/pic2.jpg" alt="Recent">
                                         <a href="blog-details.php">World AIDS Day, designated on 1 December.</a>
                                         <ul>
                                             <li>
@@ -116,7 +116,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <img src="assets/img/blog/5.jpg" alt="Recent">
+                                        <img src="assets/img/blog/pic3.jpg" alt="Recent">
                                         <a href="blog-details.php">World AIDS Day, designated on 1 December.</a>
                                         <ul>
                                             <li>

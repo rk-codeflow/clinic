@@ -65,6 +65,8 @@ This files table contents are outlined below>>>>>
     --light-blue: #4a6f8a;
     --blue: #0072b6;
     --light-black: #282828;
+    --fb: #3b5998;
+    --twt: #1da1f2; 
 }
 
 *, *::before, *::after {
@@ -76,6 +78,10 @@ body {
     color: var(--light-blue);
     background-color: var(--white);
     font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -110,6 +116,7 @@ a:hover {
 img {
     max-width: 100%;
 }
+
 
 .d-table {
     width: 100%;
@@ -316,24 +323,22 @@ button:focus {
     margin-right: 5px;
 }
 
-.header-top-item .header-top-right ul li.social-icon {
-    background: ;
-}
 
-/* .facebook-ico a {
-    background-color: #3b5998 !important;
+.facebook-ico a {
+    color: #3b5998 !important;
     border: 0 !important;
 }
 
 .twitter-ico a {
-    background-color: #55acee !important;
+    color: #55acee !important;
     border: 0 !important;
 }
 
-.insta-ico a {
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-    border: 0 !important;
-} */
+.insta-ico a img {
+    /* background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border: 0 !important; */
+    width: 15px;
+}
 
 .header-top-item .header-top-right ul li:last-child {
     margin-right: 0;
@@ -348,17 +353,17 @@ button:focus {
     font-size: 16px;
     text-align: center;
     border: 1px solid transparent;
-    background-color: var(--gray-bg);
+    /* background-color: var(--gray-bg); */
 }
 
 .header-top-item .header-top-right ul li a:hover {
-    /*color: #ccc;
-    */background-color: var(--black);
+    /*color: #ccc; */
+    /* background-color: var(--black);
     transition:   background-color 300ms ease-in  ;
     -webkit-transition:   background-color 300ms ease-in  ;
     -moz-transition:   background-color 300ms ease-in  ;
     -ms-transition:   background-color 300ms ease-in  ;
-    -o-transition:   background-color 300ms ease-in  ;
+    -o-transition:   background-color 300ms ease-in  ; */
 }
 
 
@@ -446,15 +451,15 @@ button:focus {
 
 }
 
-.active {
-    color: #ff6a00;
-}
+/* .active {
+    color: #ff6a00 !important;
+} */
 
 .main-nav nav .navbar-nav .nav-item a:hover,
 .main-nav nav .navbar-nav .nav-item a:focus,
 .main-nav nav .navbar-nav .nav-item a.active
  {
-    color: #ff6a00;
+    color: #ff6a00 !important;
 }
 
 .search-icon {
@@ -605,7 +610,7 @@ button:focus {
 }
 
 .slider-item .slider-text h1 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 32px;
     color: #ffffff;
     margin-bottom: 25px;
@@ -740,7 +745,7 @@ button:focus {
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 30px 0px #dddddda6;
     box-shadow: 0px 0px 30px 0px #dddddda6;
-    margin-top: -140px;
+    /* margin-top: -140px; */
     position: relative;
     z-index: 1;
 }
@@ -783,7 +788,7 @@ button:focus {
 
 .about-item h2 {
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -1290,6 +1295,8 @@ button:focus {
     color: #4d93e9;
     font-size: 35px;
     background-color: #ffffff;
+    position: relative;
+    top: 45px;
 }
 
 .video-item a:hover {
@@ -1474,7 +1481,7 @@ button:focus {
 .blog-area {
     background-color: #f8fbff;
     position: relative;
-    /* padding-bottom: 180px; */
+    padding-top: 200px;
 }
 
 .blog-item {
@@ -1890,7 +1897,7 @@ footer {
 
 .copyright-area .copyright-item p {
     margin-bottom: 0;
-    color: var(--orange);
+    color: #666;
     font-weight: 500;
     font-size: 14px;
     text-align: center;
@@ -2047,7 +2054,7 @@ footer {
     color: var(--orange);
     margin-bottom: 18px;
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .emergency-item .emergency-inner p {
@@ -2154,8 +2161,8 @@ footer {
 }
 
 .section-title-two h2 {
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 600;
     color: #232323;
 }
 
@@ -2220,7 +2227,7 @@ footer {
 }
 
 .speciality-right img {
-    display: none;
+    /* display: none; */
 }
 
 .speciality-right .speciality-emergency {
@@ -2316,8 +2323,8 @@ footer {
 /*-- Counter --*/
 
 .counter-area-two .counter-bg {
-    /* margin-top: 0; */
-    /* bottom: -100px; */
+    margin-top: 0; 
+    bottom: -125px !important;
 }
 
 
@@ -2862,10 +2869,10 @@ footer {
 
 /*-- Counter --*/
 
-.counter-area-three .counter-bg {
+/* .counter-area-three .counter-bg {
     margin-top: 0;
     bottom: -100px;
-}
+} */
 
 
 /*-- End Counter --*/
@@ -5489,18 +5496,17 @@ footer {
 }
 
  h2.main__heading {
-    font-size: 28px;
+    /* font-size: 28px;
     font-weight: 500;
-    color: #232323;
+    color: #232323; */
 }
 
 /***************
-    gallery
+    team
 ****************/
 
-.team__content .team__content-left {
+/* .team__content .team__content-left {
     align-items: center;
-    /* border: 1px solid red; */
     height: 300px;
 }
 
@@ -5529,6 +5535,10 @@ footer {
     position: relative;
     top: 10px;
     left: 130px;
+} */
+
+.team__down-right img {
+    
 }
 
 /**** blog *****/

@@ -1,5 +1,5 @@
         <!-- include header -->
-        <?php include 'includes/header.php';?>
+        <?php $page = 'doctor'; include 'includes/header.php';?>
 
         <!-- Page Title -->
         <div class="page-title-area page-title-doc1">

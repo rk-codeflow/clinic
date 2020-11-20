@@ -1,5 +1,5 @@
         <!-- include header -->
-        <?php include 'includes/header.php';?>
+        <?php $page = 'about';include 'includes/header.php';?>
 
         <!-- Page Title -->
         <div class="page-title-area page-title-one">
@@ -97,7 +97,7 @@
         <section class="speciality-area pb-100">
             <div class="container-fluid p-0">
                 <div class="row m-0">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 col-12">
                         <div class="speciality-left">
                             <div class="section-title-two">
                                 <span>Speciality</span>
@@ -137,9 +137,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 pr-0">
+                    <div class="col-lg-5 col-12">
                         <div class="speciality-item speciality-right">
-                            <img src="assets/img/home-two/4.jpg" alt="Speciality">
+                            <img src="assets/img/about/abt2.jpg" alt="Speciality">
                             <div class="speciality-emergency">
                                 <div class="speciality-icon">
                                     <i class="icofont-ui-call"></i>

@@ -1,6 +1,6 @@
 
         <!-- include header -->
-        <?php include 'includes/header.php';?>
+        <?php $page = 'service'; include 'includes/header.php';?>
 
         <!-- Page Title -->
         <div class="page-title-area page-title-three">

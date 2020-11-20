@@ -27,7 +27,7 @@
         text-align: center;
     }
     .header-top-item .header-top-left ul li {
-        font-size: 13px;
+        /* font-size: 13px; */
         margin-right: 0;
         margin-bottom: 8px;
         display: block;
@@ -36,7 +36,7 @@
         font-size: 16px;
     }
     .header-top-item .header-top-right {
-        text-align: center;
+        text-align: left;
     }
     /*-- End Header Top --*/
     /*-- Navbar --*/
@@ -1537,6 +1537,43 @@
         top: 2px;
         font-size: 24px;
     }
+
+   .speciality-right .speciality-emergency h3 {
+        font-size: 18px;
+        right: 56px;
+    }
+
+    .speciality-right .speciality-emergency p {
+        top: 52px;
+        font-size: 12px;
+        right: 52px;
+    }
+
+    /* media 
+        queries 
+                by me
+    *************************/
+
+    /* Header Top */
+    .header-top .header-top-left ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* .emergency-item .emergency-inner p {
+        clear: left;
+        text-align: justify;
+        padding-right: 15px;
+    } */
+
+    /* .header-top .header-top-left ul li {
+        flex: 1;
+    }
+
+    .header-top-item .header-top-left ul li:last-child {
+        flex: 4;
+    } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1559,7 +1596,7 @@
     /*----- Home Page One -----*/
     /*-- Header Top --*/
     .header-top-item .header-top-left ul li {
-        font-size: 14px;
+        font-size: 13px;
         margin-right: 18px;
         margin-bottom: 5px;
     }
@@ -2928,6 +2965,19 @@
         top: 2px;
         font-size: 24px;
     }
+
+    .speciality-right .speciality-emergency h3 {
+        font-size: 22px;
+        right: 100px;
+    }
+
+    .speciality-right .speciality-emergency p {
+        margin-bottom: 0;
+        color: #fff;
+        position: absolute;
+        right: 96px;
+        top: 56px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3099,4 +3149,39 @@
 }
 
 
-/*# sourceMappingURL=responsive.css.map */
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .team .cp-text
+    {
+        position: relative;
+        left: -10%;
+    }
+
+     .team .team__down-text {
+         position: relative;
+         left: -12%;
+     }
+}
+
+/* media 
+        queries 
+                by me
+    *************************/
+
+@media (max-width: 575px) {
+    .emergency-item .emergency-inner p {
+        clear: left;
+        text-align: justify;
+        padding-right: 43px;
+        position: relative;
+        top: -40px;
+        left: 21px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-top .header-top-left ul li {
+        font-size: 11px;
+    }
+    
+}
+

@@ -1,5 +1,5 @@
     <!-- include header -->
-    <?php include 'includes/header.php';?>
+    <?php $page = 'home'; include 'includes/header.php';?>
     
     <!-- Home Slider -->
     <div class="home-slider home-slider-two owl-theme owl-carousel">
@@ -483,7 +483,7 @@
                             <div class="d-table-cell">
                                 <div class="container">
                                     <div class="video-item">
-                                        <a href="#">
+                                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
                                             <i class="icofont-ui-play"></i>
                                         </a>
                                         <div class="video-content">
@@ -526,7 +526,7 @@
     
 
     <!-- Doctors -->
-    <section class="doctors-area ptb-100">
+    <section class="doctors-area pt-100">
         <div class="container">
             <div class="section-title-two">
                 <span class="sub-heading">Doctors</span>
@@ -587,9 +587,9 @@
     <!-- End Doctors -->
 
     <!-- Counter -->
-        <div class="counter-area counter-bg counter-area-four">
+        <div class="counter-area counter-area-two">
             <div class="container">
-                <div class="row">       
+                <div class="row counter-bg">
                     <div class="col-sm-6 col-lg-4">
                         <div class="counter-item">
                             <i class="icofont-people"></i>
@@ -615,82 +615,8 @@
             </div>
         </div>
         <!-- End Counter -->
-        
 
     
-
-    <!-- Appointment -->
-    <!-- <section class="appointment-area pb-100">
-        <div class="container-fluid p-0">
-            <div class="appointment-item">
-                <h2>Book your appointment</h2>
-                <span>We will confirm your  appointment within 2 hours</span>
-                <div class="appointment-form">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-business-man-alt-1"></i>
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter Your Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-ui-message"></i>
-                                    <label>Email</label>
-                                    <input type="email" class="form-control" placeholder="Enter Your Email">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-ui-call"></i>
-                                    <label>Phone</label>
-                                    <input type="text" class="form-control" placeholder="Enter Your Number">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-hospital"></i>
-                                    <labevices</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>Dental Care</option>
-                                            <option>Neurology</option>
-                                            <option>Cardiology</option>
-                                            <option>Pathology</option>
-                                        </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-doctor"></i>
-                                    <label>Doctor</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>Choose Your Doctor</option>
-                                            <option>John Smith</option>
-                                            <option>Sarah Taylor</option>
-                                            <option>Stevn King</option>
-                                        </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <i class="icofont-business-man"></i>
-                                    <label>Age</label>
-                                    <input type="text" class="form-control" placeholder="Your Age">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn appointment-btn">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Appointment -->
-
     <!-- Blog -->
     <section class="blog-area pt-100 pb-70">
         <div class="container">
@@ -703,7 +629,7 @@
                     <div class="blog-item">
                         <div class="blog-top">
                             <a href="blog-details.html">
-                                <img src="assets/img/home-one/11.jpg" alt="Blog">
+                                <img src="assets/img/blog/img1.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
@@ -729,7 +655,7 @@
                     <div class="blog-item">
                         <div class="blog-top">
                             <a href="blog-details.html">
-                                <img src="assets/img/home-one/12.jpg" alt="Blog">
+                                <img src="assets/img/blog/img2.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
@@ -755,7 +681,7 @@
                     <div class="blog-item">
                         <div class="blog-top">
                             <a href="blog-details.html">
-                                <img src="assets/img/home-one/13.jpg" alt="Blog">
+                                <img src="assets/img/blog/img3.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
