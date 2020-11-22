@@ -73,7 +73,7 @@
                 </div>
 
                 
-                <div class="col-lg-4 col-md-4 col-sm-12  col-8">
+                <div class="col-lg-4 col-md-4 col-sm-12  col-12">
                     <div class="footer-item">
                         <div class="footer-feedback">
                             <h3>Operation Hours</h3>

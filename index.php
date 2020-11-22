@@ -628,18 +628,18 @@
                 <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                     <div class="blog-item">
                         <div class="blog-top">
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <img src="assets/img/blog/img1.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
                             <h3>
-                                <a href="blog-details.html">In this hospital there are special surgeon.</a>
+                                <a href="blog-details.php">In this hospital there are special surgeon.</a>
                             </h3>
                             <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                             <ul>
                                 <li>
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>
@@ -654,18 +654,18 @@
                 <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
                     <div class="blog-item">
                         <div class="blog-top">
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <img src="assets/img/blog/img2.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
                             <h3>
-                                <a href="blog-details.html">World AIDS Day, designated on 1 December.</a>
+                                <a href="blog-details.php">World AIDS Day, designated on 1 December.</a>
                             </h3>
                             <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                             <ul>
                                 <li>
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>
@@ -680,18 +680,18 @@
                 <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
                     <div class="blog-item">
                         <div class="blog-top">
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <img src="assets/img/blog/img3.jpg" alt="Blog">
                             </a>
                         </div>
                         <div class="blog-bottom">
                             <h3>
-                                <a href="blog-details.html">More than 80 clinical trials launch to test coronavirus.</a>
+                                <a href="blog-details.php">More than 80 clinical trials launch to test coronavirus.</a>
                             </h3>
                             <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
                             <ul>
                                 <li>
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                             Read More
                                             <i class="icofont-long-arrow-right"></i>
                                         </a>
