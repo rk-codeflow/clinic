@@ -282,7 +282,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.html">
-                                    <img src="assets/img/home-one/11.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img1.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -309,7 +309,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.html">
-                                    <img src="assets/img/home-one/12.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img2.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
@@ -336,7 +336,7 @@
                         <div class="blog-item">
                             <div class="blog-top">
                                 <a href="blog-details.html">
-                                    <img src="assets/img/home-one/13.jpg" alt="Blog">
+                                    <img src="assets/img/blog/img3.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">

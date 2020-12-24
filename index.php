@@ -362,8 +362,8 @@
     </section>
     <!-- End Services -->
     
-    <!-- Testimonials -->
-    <section class="testimonial-area ptb-100">
+   <!-- Testimonials -->
+    <!-- <section class="testimonial-area ptb-100">
         <div class="container">
             <div class="testimonial-wrap">
                 <h2>What our patients say</h2>
@@ -387,8 +387,75 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Testimonials -->
+
+    <!-- new testimonial -->
+    <div class="home-slider home-slider-two testimonial-area owl-theme owl-carousel">
+        <div class="slider-item slider-item-img-two">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="slider-text ">
+                            <div class="slider-shape">
+                                <img src="assets/img/home-one/5.png" alt="Shape">
+                            </div>
+                            <div class="testimonial-item testimonial-wrap">
+                           <h2>What our patients say</h2>
+
+                        <h3>Mrs. B. Shrestha & Mr. L. K. Shrestha</h3>
+                        <p>“We cannot thank Dr. Rashmi, Dr. Mira and embryologist Preeti enough for having made our dreams come true. We are also sincerely grateful to Dr. Gyanendra Man Singh Karki for his tireless efforts. We are blessed to have found NIFLC
+                            amidst all the chaotic treatments we were suggested. While researching, we also came to know that NIFLC is the best IVF center in Nepal. After losing five years hopping from one hospital to another, NIFLC made it possible for
+                            me and my husband to have a baby.For the ones suffering from infertility, I request not to waste anymore time and visit them.” We had almost given up hope. It was NIFLC and their team who made our dream come true miraculously.
+                            NIFLC is truly the best ivf center in Kathmandu.”</p>
+                    </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item slider-item-img-three">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="slider-text">
+                            <div class="slider-shape">
+                                <img src="assets/img/home-one/5.png" alt="Shape">
+                            </div>
+                            <div class="testimonial-item testimonial-wrap">
+                           <h2>What our patients say</h2>
+
+                        <h3>Adam Smith</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id labore vitae cupiditate dolorum voluptates dicta delectus quibusdam excepturi, veniam deserunt magni ipsam mollitia optio, quas quis rem non reprehenderit.</p>
+                    </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item slider-item-img-four">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="slider-text">
+                            <div class="slider-shape">
+                                <img src="assets/img/home-one/5.png" alt="Shape">
+                            </div>
+                        <div class="testimonial-item testimonial-wrap">
+                                <h2>What our patients say</h2>
+                                <h3>Mr Adam Smith</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti nostrum illo fuga ad itaque odio quisquam omnis sequi ducimus.</p>
+                        </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- new testimonial ends -->
 
     <!-- Video -->
     <div class="video-wrap video-wrap-two">

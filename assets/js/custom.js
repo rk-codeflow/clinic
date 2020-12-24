@@ -52,6 +52,25 @@
 			"<i class='icofont-simple-right'></i>"
 		],
 	});
+
+	//testimonial area
+	$('.testimonial-area').owlCarousel({
+		items:1,
+		loop:true,
+		margin:0,
+		nav: true,
+		dots: false,
+		smartSpeed: 1000,
+		animateOut: 'fadeOut',
+		autoplay:false,
+		autoplayTimeout:9000,
+		autoplayHoverPause:true,
+		navText: [
+			"<i class='icofont-simple-left'></i>",
+			"<i class='icofont-simple-right'></i>"
+		],
+		
+	});
 	
     // Search Box JS
     $('.search-toggle').addClass('closed');

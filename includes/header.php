@@ -98,12 +98,14 @@
                                 <li class="apt-btn"><a href="appointment.php"><i class="icofont-calendar mr-2"></i>Get Appointment </a></li>
                                 <li class="facebook-ico">
                                     <a href="#">
-                                        <i class="icofont-facebook"></i>
+                                        <!-- <i class="icofont-facebook"></i> -->
+                                        <img src="assets/img/fb.png" alt="">
                                     </a>
                                 </li>
                                 <li class="twitter-ico">
                                     <a href="#">
-                                        <i class="icofont-twitter"></i>
+                                        <!-- <i class="icofont-twitter"></i> -->
+                                        <img src="assets/img/tw.png" alt="">
                                     </a>
                                 </li>
                                 <li class="insta-ico">
